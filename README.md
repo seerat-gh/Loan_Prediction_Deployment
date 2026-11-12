@@ -2,6 +2,12 @@
 
 A beginner machine-learning project that predicts a loan status using a Random Forest Classifier.
 
+## Live App
+
+https://loanpredictiondeployment-gnvm.streamlit.app/
+
+[Click here to open the Loan Approval Prediction App](https://loanpredictiondeployment-gnvm.streamlit.app/)
+
 ## Files
 - `app.py` — Streamlit web application
 - `loan_model.pkl` — trained Random Forest model
@@ -14,11 +20,11 @@ A beginner machine-learning project that predicts a loan status using a Random F
 2. Open a terminal in this project folder.
 3. Install dependencies:
 
-   `pip install -r requirements.txt`
+   `py -m pip install -r requirements.txt`
 
 4. Start the app:
 
-   `streamlit run app.py`
+   `py -m streamlit run app.py`
 
 ## Deploy online
 1. Upload the project files to a GitHub repository.
